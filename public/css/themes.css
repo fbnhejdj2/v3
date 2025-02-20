@@ -46,6 +46,7 @@ body[theme="modern"] {
     --navbar: #313131;
     --accent: #0284d4;
 }
+/* Purple & Orange Theme */
 body[theme="purple-orange"] {
     --text-color: #ffffff; /* White text for contrast */
     --navbar: #6a1b9a; /* Dark purple */
@@ -76,7 +77,7 @@ body[theme="purple-orange"] {
 }
 
 /* Navbar styling */
-nav {
+body[theme="purple-orange"] nav {
     background-color: var(--navbar);
     padding: 10px;
     display: flex;
@@ -85,7 +86,7 @@ nav {
 }
 
 /* Button styling */
-.button {
+body[theme="purple-orange"] .button {
     background-color: var(--accent);
     color: var(--text-color);
     padding: 10px 20px;
@@ -95,22 +96,22 @@ nav {
     transition: background-color 0.3s ease;
 }
 
-.button:hover {
+body[theme="purple-orange"] .button:hover {
     background-color: #e65100; /* Darker orange on hover */
 }
 
 /* Center container styling */
-.center-container {
+body[theme="purple-orange"] .center-container {
     text-align: center;
     margin-top: 50px;
 }
 
-h1 {
+body[theme="purple-orange"] h1 {
     color: var(--text-color);
     font-size: 2.5rem;
 }
 
-p {
+body[theme="purple-orange"] p {
     color: var(--text-color);
     font-size: 1.2rem;
 }
