@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=JetBrains+Mono:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
 @import url(main.css);
 @import url(themes.css);
 @import url(nav.css);
@@ -13,6 +13,6 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "JetBrains Mono", monospace;
+    font-family: "Tangerine", cursive;
     font-weight: 400;
 }
