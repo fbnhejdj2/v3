@@ -60,20 +60,6 @@ body[theme="purple-orange"] {
     margin: 0;
     padding: 0;
     overflow: hidden; /* Prevent scrolling */
-    animation: moveBackground 10s linear infinite; /* Animate the background */
-}
-
-/* Keyframes for background animation */
-@keyframes moveBackground {
-    0% {
-        background-position: 0% 0%;
-    }
-    50% {
-        background-position: 100% 100%;
-    }
-    100% {
-        background-position: 0% 0%;
-    }
 }
 
 /* Navbar styling */
